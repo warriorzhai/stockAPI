@@ -24,10 +24,9 @@ if DEBUG:
     MONGODB_PORT=27017
     
 else:
-    MONGODB_URI ='mongodb://root:shinan1988@ds047642.mongolab.com:47642/stockdb'
+    MONGODB_URI ='mongodb://***:***@ds047642.mongolab.com:47642/stockdb'
     MONGODB_PORT=None
-    MMONGODB_USER='root'
-    MONGODB_PWD='shinan1988'
+
     
 #数据库名称，本地、云一致
 MONGODB_DB = "stockdb"
