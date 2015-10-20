@@ -17,7 +17,7 @@ from StockDailyUpdate import StockDailyUpdate
 
 class StockMain(object):
     def __init__(self):
-        self.token='4648a6790ed5018390e3fe0d5d239bb4807cc762e645a08fe1bfba14dfc7ff70'
+        self.token='***'
         self.db_name='stock'
     
     
